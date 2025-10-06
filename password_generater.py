@@ -1,3 +1,5 @@
+# -*- coding: UTF-8 -*-
+# Copyright (c) 2025 QU QI
 import json
 import random
 while True:
@@ -25,5 +27,6 @@ def Main(number_of_circulation):
         else:
             result+=alphabet["lowercase"][element[1]]
     return result
+
 
 print("Here is your password:"+Main(password_length))
